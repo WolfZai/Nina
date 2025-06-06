@@ -101,6 +101,7 @@ header .name {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
+	filter: contrast(1.5);
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -127,6 +128,7 @@ header .name {
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
+	
 	border-radius: 00%;
 	justify-content: center;
 	align-items: center;
@@ -240,6 +242,11 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  color: var(--bs-blue) !important;
 }
 
 @media all and (max-width: 1180px) {
