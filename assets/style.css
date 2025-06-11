@@ -136,6 +136,13 @@ header .name {
 	font-size: 24px;
 }
 
+
+.lightboxImage {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -358,4 +365,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-

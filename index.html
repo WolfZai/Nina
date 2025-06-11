@@ -3,17 +3,31 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 	<title>Nina Carducci - Photographe</title>
 	<meta name="description"
 		content="Photographe professionnelle, je réalise des photos de mariage, des portraits et des photos pour les entreprises.">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.ninacarducci.com/">
+	<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
+	<meta property="og:description" content="Photographe professionnelle à Bordeaux. Mariage, portraits, événements. 📍 68 avenue Alsace-Lorraine. ☎️ 05 56 67 78 89 (du lundi au vendredi de 10h à 19h).">
+	<meta property="og:image" content="https://www.ninacarducci.com/assets/images/og-cover.jpg">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://www.ninacarducci.com/">
+	<meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux">
+	<meta name="twitter:description" content="Photographe mariage, portrait, événementiel. 📍 Bordeaux - 68 avenue Alsace-Lorraine. 📞 05 56 67 78 89 (10h-19h, lun-ven).">
+	<meta name="twitter:image" content="https://www.ninacarducci.com/assets/images/og-cover.jpg">
+
 </head>
 
 <body>
@@ -93,7 +107,7 @@
 						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
 						alt="Photo de concert" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash_resultat.webp"
 						alt="Portrait homme en costume cravate" />
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
@@ -201,8 +215,38 @@
     <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/maugallery.min.js"></script>
+	<script src="./assets/scripts.min.js"></script>
+
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "LocalBusiness",
+	"name": "Nina Carducci",
+	"image": "https://www.ninacarducci.com/assets/images/og-cover.jpg",
+	"description": "Photographe professionnelle à Bordeaux spécialisée en mariage, portrait et événements. Réservez votre séance dès maintenant.",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "68 avenue Alsace-Lorraine",
+		"addressLocality": "Bordeaux",
+		"postalCode": "33200",
+		"addressCountry": "FR"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": 44.84889,
+		"longitude": -0.59536
+	},
+	"url": "https://www.ninacarducci.com",
+	"telephone": "+33-5-56-67-78-89",
+	"openingHours": "Mo-Fr 10:00-19:00",
+	"priceRange": "$$",
+	"sameAs": [
+		"https://www.instagram.com/ninacarducci", 
+		"https://www.facebook.com/ninacarducci"
+	]
+	}
+	</script>
 </body>
 
 
